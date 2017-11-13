@@ -19,11 +19,11 @@ public class Plug {
     }
     //will set the end1 char
     public void setEnd1(char a){
-        this.end1=a;
+        this.end1=Character.toUpperCase(a);
     }
     //will set the end2 chat
     public void setEnd2(char a) {
-        this.end2 = a;
+        this.end2 = Character.toUpperCase(a);
     }
     //will return letter for the another end plug it does match ,if there no match will return letter passed
     public char encode(char letterIn){
@@ -39,9 +39,8 @@ public class Plug {
         char currentFirstEnd=this.getEnd1();
         char currentsecondEnd=this.getEnd2();
 
-        if(currentFirstEnd==plugin.getEnd1() || currentsecondEnd==plugin.getEnd2() ) {
-            return true;
-        }else if(currentsecondEnd==plugin.getEnd1() || currentFirstEnd==plugin.getEnd2() ) {
+        if(currentFirstEnd==plugin.getEnd1() || currentsecondEnd==plugin.getEnd2() || currentsecondEnd==plugin.getEnd1() || currentFirstEnd==plugin.getEnd2())
+        {
             return true;
         }
 

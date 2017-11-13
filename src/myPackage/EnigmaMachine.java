@@ -10,8 +10,12 @@ public class EnigmaMachine {
 
       }
       //will run the Machine
-      public void start(){
-
+      public String start(String con) {
+          String text = "";
+          for (int i = 0; i < con.length(); i++) {
+              text += this.encodeLetter(con.charAt(i));
+          }
+          return text;
       }
 
      //will add plug into the list of plugs of plugboard
@@ -19,6 +23,7 @@ public class EnigmaMachine {
          boolean tryAdd=this.plugBoard.addPlug(firtEnd,secondEnd);
          if(!tryAdd)
              System.out.println("there clash with plugs added");
+
     }
 
     //will clear all the plugs in the plugboard
@@ -53,11 +58,44 @@ public class EnigmaMachine {
             this.rotors[slot].setPosition(position);
     }
 
+    //will perform process of encoding letter plugboard,Rotors,Reflector
+    public char encodeLetter(char letter){
+        System.out.println("orginal "+letter);
+        letter=this.plugBoard.substitute(letter);
+        int indexLetter=getAlpahpticalOrder((letter));
+        System.out.println("plugboard in");
+        System.out.println(letter);
+        //will iterate through the rotors
+        System.out.println("Rotors");
+        for(int i=0;i<3;i++){
+            BasicRotor currentRotor=this.getRotor(i);
+            indexLetter=currentRotor.substitute(indexLetter);
+            System.out.println(indexLetter);
+        }
+        System.out.println("Reflector");
+        //will use the reflector
+        Reflector theReflector=this.getReflector();
+        indexLetter=theReflector.substitute(indexLetter);
+        System.out.println(indexLetter);
+        System.out.println("inverse Mapping");
+        //will iterate through the rotors using inverse mapping start from the the third rotor to First
+        for(int i=2;i>-1;i--){
+
+           BasicRotor current=this.getRotor(i);
+           indexLetter=current.substituteBack(indexLetter);
+           System.out.println(indexLetter);
+        }
+        System.out.println("plugboard out");
+        this.getRotor(0).rotor();
+        char encoded=this.plugBoard.substitute(getAccrodingToOrder(indexLetter));
+        System.out.println(indexLetter);
+        return encoded;
+    }
     //will get the index that represent the letter which basically in term alpahptcal Order
-    public int encode(char letter){
+    private int getAlpahpticalOrder(char letter){
         int value=0;
-        letter=Character.toLowerCase(letter);
-        char[] alphabet = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+        letter=Character.toUpperCase(letter);// it was lower case instead of uppper case;) it took time tp figure it out
+        char[] alphabet = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
         for(int i=0;i<alphabet.length;i++){
             if(alphabet[i]==letter){
                 value=i;
@@ -65,6 +103,12 @@ public class EnigmaMachine {
             }
 
         }
+
         return value;
+    }
+    //get letter according to alpahptical Order
+    public char getAccrodingToOrder(int order){
+        char[] alphabet = {'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
+        return alphabet[order];
     }
 }

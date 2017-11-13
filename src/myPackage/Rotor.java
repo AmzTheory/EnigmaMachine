@@ -1,7 +1,7 @@
 package myPackage;
 
 public abstract class Rotor {
-    private String name;
+    protected String name;
     private int position;
     private int[] mapping;
     public static final int ROTORSIZE = 26;
@@ -12,7 +12,7 @@ public abstract class Rotor {
     }
 
     public int getPosition() {
-        return this.getPosition();
+        return this.position;
     }
 
     public abstract void initialise(String name);

@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7f99b9b-dcf2-4152-a061-cc7ddfa75f20" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Course Work/myPackage/BasicRotor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Course Work/myPackage/EnigmaMachine.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Course Work/myPackage/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Course Work/myPackage/Plug.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Course Work/myPackage/PlugBoard.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Course Work/myPackage/Reflector.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Course Work/myPackage/Rotor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Course Work/myPackage/TurnoverRotor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/myPackage/EnigmaFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Course Work/myPackage/Main.class" afterPath="$PROJECT_DIR$/out/production/Course Work/myPackage/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myPackage/BasicRotor.java" afterPath="$PROJECT_DIR$/src/myPackage/BasicRotor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myPackage/EnigmaMachine.java" afterPath="$PROJECT_DIR$/src/myPackage/EnigmaMachine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myPackage/Main.java" afterPath="$PROJECT_DIR$/src/myPackage/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myPackage/Plug.java" afterPath="$PROJECT_DIR$/src/myPackage/Plug.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myPackage/PlugBoard.java" afterPath="$PROJECT_DIR$/src/myPackage/PlugBoard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myPackage/Reflector.java" afterPath="$PROJECT_DIR$/src/myPackage/Reflector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myPackage/Rotor.java" afterPath="$PROJECT_DIR$/src/myPackage/Rotor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/myPackage/TurnoverRotor.java" afterPath="$PROJECT_DIR$/src/myPackage/TurnoverRotor.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,52 +17,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-            <file leaf-file-name="BasicRotor.java" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/myPackage/BasicRotor.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="367">
-                    <caret line="52" column="45" lean-forward="false" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-                    <folding>
-                      <element signature="e#2021#2022#0" expanded="true" />
-                      <element signature="e#2051#2052#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/myPackage/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="618">
+              <caret line="38" column="78" lean-forward="false" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Plug.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myPackage/Plug.java">
+      <file leaf-file-name="EnigmaFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/myPackage/EnigmaFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="1150">
+              <caret line="70" column="34" lean-forward="false" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
               <folding>
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputFileFormat.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InputFileFormat.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,34 +63,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnigmaMachine.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/myPackage/EnigmaMachine.java">
+      <file leaf-file-name="BasicRotor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/myPackage/BasicRotor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state relative-caret-position="248">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TurnoverRotor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myPackage/TurnoverRotor.java">
+      <file leaf-file-name="Output.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-              <folding>
-                <element signature="e#113#114#0" expanded="true" />
-                <element signature="e#147#148#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reflector.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/myPackage/Reflector.java">
+      <file leaf-file-name="conf.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="88">
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -127,9 +96,32 @@
       <file leaf-file-name="PlugBoard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/myPackage/PlugBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="592">
+              <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnigmaMachine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/myPackage/EnigmaMachine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="71" column="43" lean-forward="false" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TurnoverRotor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/myPackage/TurnoverRotor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -162,21 +154,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/myPackage/BasicRouter.java" />
-        <option value="$PROJECT_DIR$/src/myPackage/TurnoverRotor.java" />
         <option value="$PROJECT_DIR$/src/myPackage/Rotor.java" />
         <option value="$PROJECT_DIR$/src/myPackage/PlugBoard.java" />
         <option value="$PROJECT_DIR$/src/myPackage/Plug.java" />
         <option value="$PROJECT_DIR$/src/myPackage/Reflector.java" />
+        <option value="$PROJECT_DIR$/src/myPackage/BasicRotor.java" />
+        <option value="$PROJECT_DIR$/src/myPackage/EnigmaFile.java" />
+        <option value="$PROJECT_DIR$/conf.txt" />
+        <option value="$PROJECT_DIR$/InputFileFormat.txt" />
+        <option value="$PROJECT_DIR$/src/myPackage/TurnoverRotor.java" />
         <option value="$PROJECT_DIR$/src/myPackage/EnigmaMachine.java" />
         <option value="$PROJECT_DIR$/src/myPackage/Main.java" />
-        <option value="$PROJECT_DIR$/src/myPackage/BasicRotor.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="966" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2568" />
+    <option name="y" value="-372" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -193,7 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,9 +211,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,7 +284,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="966" height="1047" extended-state="0" />
+    <frame x="-2568" y="-372" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -298,17 +295,17 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17305586" sideWeight="0.19912472" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42214912" sideWeight="0.80087525" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4028103" sideWeight="0.80087525" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.067567565" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40570176" sideWeight="0.45185995" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42935207" sideWeight="0.45185995" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -325,71 +322,34 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/myPackage/EnigmaFile.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/myPackage/Main.java</url>
-          <line>26</line>
+          <line>22</line>
           <properties />
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/myPackage/EnigmaMachine.java</url>
-          <line>63</line>
+          <line>15</line>
           <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/myPackage/EnigmaMachine.java</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="30" />
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="46" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((TurnoverRotor)((BasicRotor[])((EnigmaMachine)this).rotors)[1]).position" custom="myPackage.TurnoverRotor,myPackage.BasicRotor[],myPackage.EnigmaMachine" />
+        <watch expression="((TurnoverRotor)((BasicRotor[])((EnigmaMachine)this).rotors)[2]).position" custom="myPackage.TurnoverRotor,myPackage.BasicRotor[],myPackage.EnigmaMachine" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/myPackage/Rotor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="e#353#354#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/myPackage/Plug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/myPackage/EnigmaMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/myPackage/TurnoverRotor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/myPackage/Reflector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -410,10 +370,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1408">
           <caret line="64" column="41" lean-forward="true" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
-          <folding>
-            <element signature="e#2021#2022#0" expanded="true" />
-            <element signature="e#2051#2052#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -430,10 +387,10 @@
         <state relative-caret-position="286">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="false" />
+            <element signature="e#279#280#0" expanded="false" />
+            <element signature="e#331#332#0" expanded="false" />
+            <element signature="e#363#364#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -461,8 +418,8 @@
         <state relative-caret-position="88">
           <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -496,10 +453,10 @@
         <state relative-caret-position="1034">
           <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="false" />
+            <element signature="e#279#280#0" expanded="false" />
+            <element signature="e#331#332#0" expanded="false" />
+            <element signature="e#363#364#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -519,8 +476,8 @@
         <state relative-caret-position="110">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -553,10 +510,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
           <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="e#2021#2022#0" expanded="true" />
-            <element signature="e#2051#2052#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -573,10 +527,10 @@
         <state relative-caret-position="1034">
           <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="false" />
+            <element signature="e#279#280#0" expanded="false" />
+            <element signature="e#331#332#0" expanded="false" />
+            <element signature="e#363#364#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -595,10 +549,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
           <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-          <folding>
-            <element signature="e#2021#2022#0" expanded="true" />
-            <element signature="e#2051#2052#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -607,8 +558,8 @@
         <state relative-caret-position="66">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -650,10 +601,10 @@
         <state relative-caret-position="1034">
           <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
           <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="false" />
+            <element signature="e#279#280#0" expanded="false" />
+            <element signature="e#331#332#0" expanded="false" />
+            <element signature="e#363#364#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -662,10 +613,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="e#2021#2022#0" expanded="true" />
-            <element signature="e#2051#2052#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -684,8 +632,8 @@
         <state relative-caret-position="66">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -727,10 +675,10 @@
         <state relative-caret-position="462">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="false" />
+            <element signature="e#279#280#0" expanded="false" />
+            <element signature="e#331#332#0" expanded="false" />
+            <element signature="e#363#364#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -760,6 +708,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/myPackage/Plug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="e#247#248#0" expanded="false" />
+            <element signature="e#279#280#0" expanded="false" />
+            <element signature="e#331#332#0" expanded="false" />
+            <element signature="e#363#364#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myPackage/Reflector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputFileFormat.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/myPackage/Rotor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -770,69 +763,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myPackage/TurnoverRotor.java">
+    <entry file="file://$PROJECT_DIR$/src/myPackage/EnigmaFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="1150">
+          <caret line="70" column="34" lean-forward="false" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
           <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/myPackage/PlugBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="592">
+          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/myPackage/Reflector.java">
+    <entry file="file://$PROJECT_DIR$/src/myPackage/TurnoverRotor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/myPackage/Plug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="502">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/myPackage/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/myPackage/BasicRotor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="52" column="45" lean-forward="false" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-          <folding>
-            <element signature="e#2021#2022#0" expanded="true" />
-            <element signature="e#2051#2052#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="248">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/myPackage/EnigmaMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="248">
+          <caret line="71" column="43" lean-forward="false" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/myPackage/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="38" column="78" lean-forward="false" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
           <folding />
         </state>
       </provider>

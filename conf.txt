@@ -1,0 +1,10 @@
+Plugs
+Q-F
+Rotors
+0,23,IV
+1,4,V
+2,9,II
+Reflector
+1
+letter
+GACIG

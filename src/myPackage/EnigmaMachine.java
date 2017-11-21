@@ -87,6 +87,7 @@ public class EnigmaMachine {
         }
         System.out.println("plugboard out");
         this.getRotor(0).rotor();
+
         char encoded=this.plugBoard.substitute(getAccrodingToOrder(indexLetter));
         System.out.println(indexLetter);
         return encoded;

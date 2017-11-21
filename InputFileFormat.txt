@@ -1,0 +1,16 @@
+Plugs
+firstEnd-SecondEnd,firstEnd-SecondEnd   ----n
+#
+Rotors
+position,initialposition,type
+     |
+     |
+     n
+#
+Refelector
+type
+#
+Letter
+ dfbjsdfb sjdmf
+#
+OJVAYFGUOFIVTAYRNIWJYQWMXUEJGXYGIFT
